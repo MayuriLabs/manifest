@@ -36,6 +36,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="mayuri" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="mayuri" />
 
   <!-- Packages -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="mayuri" />
