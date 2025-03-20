@@ -11,10 +11,18 @@
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
 
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+
+  <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_interfaces" />
 
   <!-- Packages -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -22,13 +30,26 @@
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+  <remove-project name="platform/packages/modules/DeviceLock" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/vndk" />
+  <remove-project name="LineageOS/android_packages_modules_Wifi" />
 
   <!-- SDK -->
   <remove-project name="LineageOS/android_lineage-sdk" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex" />
+  <remove-project name="LineageOS/android_system_bpf" />
   <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_extras" />
+  <remove-project name="platform/system/linkerconfig" />
+  <remove-project name="LineageOS/android_system_netd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="LineageOS/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_system_vold" />
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />

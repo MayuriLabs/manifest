@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="mayuri"
+          fetch="https://github.com/MayuriLabs/"
+          revision="15" />
+
+  <!-- Root -->
+  <project path="bionic" name="bionic" remote="mayuri" />
+  <project path="manifest" name="manifest" remote="mayuri" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="mayuri">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="mayuri" />
+
+  <!-- Device -->
+  <project path="device/phh/treble" name="device_phh_treble" remote="mayuri" />
+
+  <!-- External -->
+  <project path="external/selinux" name="external_selinux" remote="mayuri" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="mayuri" />
+  <project path="frameworks/base" name="frameworks_base" remote="mayuri" />
+  <project path="frameworks/native" name="frameworks_native" remote="mayuri" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="mayuri" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="mayuri" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="mayuri" />
+
+  <!-- Packages -->
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="mayuri" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mayuri" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="mayuri" />
+  <project path="packages/modules/DeviceLock" name="packages_modules_DeviceLock" remote="mayuri" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="mayuri" />
+  <project path="packages/modules/vndk" name="packages_modules_vndk" remote="mayuri" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="mayuri" />
+
+  <!-- System -->
+  <project path="system/apex" name="system_apex" remote="mayuri" />
+  <project path="system/bpf" name="system_bpf" remote="mayuri" />
+  <project path="system/core" name="system_core" remote="mayuri" />
+  <project path="system/extras" name="system_extras" remote="mayuri" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="mayuri" />
+  <project path="system/netd" name="system_netd" remote="mayuri" />
+  <project path="system/nfc" name="system_nfc" remote="mayuri" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="mayuri" />
+  <project path="system/vold" name="system_vold" remote="mayuri" />
+</manifest>

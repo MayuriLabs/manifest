@@ -1365,5 +1365,7 @@
   <include name="snippets/pixel.xml" />
   <include name="snippets/remove.xml" />
   <include name="snippets/komodo.xml" />
+  <include name="snippets/mayuri.xml" />
+  <include name="snippets/trebledroid.xml" />
 
 </manifest>
