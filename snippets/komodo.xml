@@ -18,6 +18,9 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
+
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
   <project path="packages/apps/Reptools" name="packages_apps_Reptools" remote="komodo" />
